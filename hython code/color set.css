@@ -1,0 +1,27 @@
+body{
+    color: #c99000;
+    font-family: monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,lucida ;
+
+}
+
+
+
+P_window = ctk.CTk()
+P_window.geometry("1020x800")
+P_window.title("Hi-GustoPro")
+P_window.iconbitmap("hikas python/images__1__PlJ_2.ico")
+
+boite1 =ctk.CTkFrame(P_window, width=500, height=700,corner_radius=20)
+boite1.pack(expand=True)
+
+welcome = ctk.CTkLabel(boite1, text="Hi-GustoPro",font=("Script MT Bold",40),)#
+welcome.pack()
+
+subwelcome = ctk.CTkLabel(boite1, text=" Transformez votre restaurant avec efficacité et simplicité. ",font=("Cascadia Code",15))#
+subwelcome.pack(pady = 20)
+
+btn = ctk.CTkButton(boite1,text="commencer",command="")
+btn.pack(pady = 30)
+#### container de p
+#pages = ctk.CTkFrame()
