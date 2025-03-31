@@ -1,2 +1,2 @@
 # virtual-kas
-le coding un art
+'le coding  est un art'
