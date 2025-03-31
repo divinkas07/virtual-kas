@@ -1,2 +1,2 @@
 # virtual-kas
-le code en IA est un art
+le coding un art
